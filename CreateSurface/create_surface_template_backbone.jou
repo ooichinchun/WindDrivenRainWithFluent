@@ -1,0 +1,11 @@
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*List_Tree1" (list "Results|Graphics"))
+(cx-gui-do cx-set-list-selections "Graphics and Animations*Table1*List1(Graphics)" '( 1))
+(cx-gui-do cx-activate-item "Graphics and Animations*Table1*List1(Graphics)")
+(cx-gui-do cx-activate-item "Graphics and Animations*Frame1*Table1*PushButton2(Set Up)")
+(cx-gui-do cx-activate-item "Contours*Frame4*New Surface")
+(cx-gui-do cx-activate-item "MenuBar*PopupMenuNewSurface*Plane...")
+(cx-gui-do cx-set-toggle-button "Plane Surface*Frame1*Frame1(Options)*ToggleBox1(Options)*CheckButton4(Bounded)" #f)
+(cx-gui-do cx-activate-item "Plane Surface*Frame1*Frame1(Options)*ToggleBox1(Options)*CheckButton4(Bounded)")
+(cx-gui-do cx-set-toggle-button "Plane Surface*Frame1*Frame1(Options)*ToggleBox1(Options)*CheckButton5(Sample Points)" #f)
+(cx-gui-do cx-activate-item "Plane Surface*Frame1*Frame1(Options)*ToggleBox1(Options)*CheckButton5(Sample Points)")
+
