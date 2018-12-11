@@ -1,6 +1,6 @@
 ## Script to create a journal to automate creation of surfaces in FLUENT for WDR
 
-This section is comprised of 3 files, of which 2 are template commands for the final journal file, and the [last](https://github.com/ooichinchun/WindDriveRainWithFluent/blob/master/CreateSurface is a script file to create the FLUENT journal file. The first two files only need to be downloaded and kept in the same folder as the script file when run. 
+This section is comprised of 3 files, of which 2 are template commands for the final journal file, and the [last](https://github.com/ooichinchun/WindDriveRainWithFluent/blob/master/CreateSurface/surface_loop.csh) is a script file to create the FLUENT journal file. The first two files only need to be downloaded and kept in the same folder as the script file when run. 
 
 The script has the following lines at the beginning that define the surfaces that will be created. 
 
