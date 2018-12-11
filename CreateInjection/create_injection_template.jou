@@ -1,0 +1,13 @@
+(cx-gui-do cx-activate-item "Injections*ButtonBox5*PushButton1(Create)")
+(cx-gui-do cx-set-text-entry "Set Injection Properties*Table1*TextEntry1(Injection Name)" "INJ_NAME")
+(cx-gui-do cx-set-list-selections "Set Injection Properties*Table1*DropDownList2(Injection Type)" '( 4))
+(cx-gui-do cx-activate-item "Set Injection Properties*Table1*DropDownList2(Injection Type)")
+(cx-gui-do cx-set-list-selections "Set Injection Properties*Table1*List3(Release From Surfaces)" '( SURFACE_COUNT))
+(cx-gui-do cx-activate-item "Set Injection Properties*Table1*List3(Release From Surfaces)")
+(cx-gui-do cx-set-real-entry-list "Set Injection Properties*Frame4*Frame1*Frame1(Point Properties)*Frame1*Frame1*Table1*RealEntry90" '( -TERM_VEL))
+(cx-gui-do cx-set-real-entry-list "Set Injection Properties*Frame4*Frame1*Frame1(Point Properties)*Frame1*Frame1*Table1*RealEntry132" '( DIAMETER))
+(cx-gui-do cx-set-real-entry-list "Set Injection Properties*Frame4*Frame1*Frame1(Point Properties)*Frame1*Frame1*Table1*RealEntry342" '( MASS))
+(cx-gui-do cx-set-list-selections "Set Injection Properties*Frame4*Frame1*Frame2(Physical Models)*Table1(Drag Parameters)*DropDownList1(Drag Law)" '( 4))
+(cx-gui-do cx-activate-item "Set Injection Properties*Frame4*Frame1*Frame2(Physical Models)*Table1(Drag Parameters)*DropDownList1(Drag Law)")
+(cx-gui-do cx-activate-item "Set Injection Properties*PanelButtons*PushButton1(OK)")
+
