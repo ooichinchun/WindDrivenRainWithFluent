@@ -16,7 +16,7 @@ There are 3 main components to the Wind-Driven Rain (WDR) simulation:
 
 #### Setup of FLUENT Discrete Phase Model
 
-A sample FLUENT [UDF](https://github.com/ooichinchun/WindDrivenRainWithFluent/UDF_wdr.c) is provided with the appropriate drag coefficients for the raindrops.
+A sample FLUENT [UDF](https://github.com/ooichinchun/WindDrivenRainWithFluent/blob/master/UDF_wdr.c) is provided with the appropriate drag coefficients for the raindrops.
 
 #### Running Discrete Phase Model
 
