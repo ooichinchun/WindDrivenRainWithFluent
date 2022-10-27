@@ -41,6 +41,7 @@ After the particle trajectories are recorded in a .his ascii file, they should b
 The following python [script](https://github.com/ooichinchun/WindDrivenRainWithFluent/AnalyzeTrajectories/README.md) will parse the input file for the initial and file location of each particle tracked. 
 
 ***
-Note: This is not an official IHPC product, but please credit this work if this is helpful to you.
+Note 1: This is not an official IHPC product, but please credit this work if this is helpful to you.
+Note 2: The Ansys Fluent journal files were created based on Ansys Fluent 2018 version. The *_template.jou files might need to be updated for use on newer versions of Ansys Fluent where additional functionalities/options have been added.
 
 This is the work of [Ooi Chin Chun](mailto:ooicc@ihpc.a-star.edu.sg) from the Institute of High Performance Computing, A* Singapore.
