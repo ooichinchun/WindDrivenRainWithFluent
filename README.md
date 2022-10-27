@@ -42,6 +42,7 @@ The following python [script](https://github.com/ooichinchun/WindDrivenRainWithF
 
 ***
 Note 1: This is not an official IHPC product, but please credit this work if this is helpful to you.
+
 Note 2: The Ansys Fluent journal files were created based on Ansys Fluent 2018 version. The *_template.jou files might need to be updated for use on newer versions of Ansys Fluent where additional functionalities/options have been added.
 
 This is the work of [Ooi Chin Chun](mailto:ooicc@ihpc.a-star.edu.sg) from the Institute of High Performance Computing, A* Singapore.
